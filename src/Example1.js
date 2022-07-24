@@ -11,6 +11,8 @@ const Example1 = () => {
     if (results.length === i + 1) {
       console.log("Last element");
     }
+
+    return <Post key={post.id} post={post} />;
   });
 
   return (
